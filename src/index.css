@@ -1,13 +1,40 @@
+:root {
+  --main-dark-color: #1d1d1b;
+  --main-light-color: #fff;
+  --main-color: #fddd00;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 94px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn-primary {
+  background-color: var(--main-light-color);
+  border-color: var(--main-light-color);
+  color: var(--main-dark-color);
+}
+.btn-primary:hover {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  color: var(--main-dark-color);
+}
+.fill-logo-light {
+  fill: var(--main-light-color);
+}
+.fill-logo-dark {
+  fill: var(--main-dark-color);
+}
+.fill-logo-colorfull {
+  fill: var(--main-color);
 }
