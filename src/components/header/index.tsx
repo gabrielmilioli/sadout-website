@@ -15,6 +15,7 @@ export default function Header() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">Nós</Nav.Link>
               <Nav.Link href="/media">Mídia</Nav.Link>
+              <Nav.Link href="/schedule">Agenda</Nav.Link>
               <Nav.Link href="/contact">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
